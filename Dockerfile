@@ -34,8 +34,4 @@ RUN apk add --no-cache git && \
 
 ENV PATH $PATH:/usr/local/share/binaryen/bin
 
-ADD app /app
-
-WORKDIR /app
-
-CMD ["run.sh", "add"]
+CMD ["bash"]

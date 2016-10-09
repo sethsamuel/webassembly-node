@@ -1,9 +1,0 @@
-version: '2'
-services:
-  asm:
-    build: .
-    tty: true
-    stdin_open: true
-    volumes:
-      - ./app:/app
-      - /tmp:/tmp
